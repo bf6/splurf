@@ -1,0 +1,37 @@
+.product-detail {
+    width: 100%;
+    display: flex;
+    font-family: sans-serif;
+    color: darkslategray;
+    align-items: flex-start;
+}
+
+.product-detail__image img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}
+
+.product-detail__detail {
+    max-width: 500px;
+    margin-left: 16px;
+}
+
+.product-detail__detail__price {
+    color: green;
+    font-weight: 600;
+}
+
+.product-detail__detail__title {
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.product-detail__detail__rating {
+    margin-top: 0px;
+}
+
+.product-detail__detail__description {
+    font-size: 0.875rem;
+    letter-spacing: 0.5px;
+}

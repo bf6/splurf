@@ -1,0 +1,9 @@
+.product-list__title {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.product-list__gallery {
+    display: flex;
+}
